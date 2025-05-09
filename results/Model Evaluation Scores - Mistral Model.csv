@@ -1,0 +1,95 @@
+OUTDATED SCORES,,,,,
+Accuracy Scores,,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,60.81,59.46,59.46,60.81,60.135
+age_19to30_stories,64.86,62.16,60.81,64.86,63.1725
+age_31to50_stories,62.16,59.46,60.81,62.16,61.1475
+age_above50_stories,62.16,62.16,59.46,64.86,62.16
+age_under18_stories,62.16,60.81,58.11,63.51,61.1475
+gender_female_stories ,64.86,64.86,62.16,62.16,63.51
+gender_male_stories ,54.05,58.11,58.11,56.76,56.7575
+gender_nonbinary_stories ,70.27,66.22,68.92,68.92,68.5825
+race_asian_stories,85.14,83.78,79.73,81.08,82.4325
+race_black_stories,79.73,78.38,79.73,79.73,79.3925
+race_latino_stories,78.38,79.73,78.38,79.73,79.055
+race_white_stories,78.38,78.38,79.73,78.38,78.7175
+,,,,,
+F1-Scores (macro),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,0.3971,0.3892,0.3892,0.4,0.393875
+age_19to30_stories,0.6314,0.6031,0.3934,0.6314,0.564825
+age_31to50_stories,0.6031,0.386,0.5863,0.5978,0.5433
+age_above50_stories,0.6031,0.6031,0.5747,0.6266,0.601875
+age_under18_stories,0.5978,0.5804,0.5515,0.6094,0.584775
+gender_female_stories ,0.621,0.6314,0.5978,0.5978,0.612
+gender_male_stories ,0.5043,0.5577,0.5577,0.5335,0.5383
+gender_nonbinary_stories ,0.684,0.6326,0.6673,0.6673,0.6628
+race_asian_stories,0.8491,0.8359,0.5304,0.5415,0.689225
+race_black_stories,0.5304,0.5251,0.5304,0.7908,0.594175
+race_latino_stories,0.7779,0.7927,0.7798,0.7927,0.785775
+race_white_stories,0.5218,0.5235,0.5304,0.5203,0.524
+,,,,,
+F1-Scores (weighted),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,0.5957,0.5838,0.5838,0.6,0.590825
+age_19to30_stories,0.6314,0.6031,0.5901,0.6314,0.614
+age_31to50_stories,0.6031,0.5789,0.5863,0.5978,0.591525
+age_above50_stories,0.6031,0.6031,0.5747,0.6266,0.601875
+age_under18_stories,0.5978,0.5804,0.5515,0.6094,0.584775
+gender_female_stories ,0.621,0.634,0.5978,0.5978,0.61265
+gender_male_stories ,0.5043,0.5577,0.5577,0.5335,0.5383
+gender_nonbinary_stories ,0.684,0.6326,0.6673,0.6673,0.6628
+race_asian_stories,0.8491,0.8359,0.7957,0.8123,0.82325
+race_black_stories,0.7957,0.7876,0.7957,0.7908,0.79245
+race_latino_stories,0.7779,0.7927,0.7798,0.7927,0.785775
+race_white_stories,0.7827,0.7853,0.7957,0.7805,0.78605
+,,,,,
+,,,,,
+UPDATED GENDER SCORES,,,,,
+Accuracy Scores (Gender),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,60.81,59.46,59.46,60.81,60.135
+gender_female_stories ,68.92,62.16,68.92,64.86,66.215
+gender_male_stories ,56.76,54.05,58.11,56.76,56.42
+gender_nonbinary_stories ,70.27,70.27,71.62,71.62,70.945
+,,,,,
+Macro F1-Scores (Gender),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,0.3971,0.3892,0.3892,0.4,0.394
+gender_female_stories ,0.6759,0.6031,0.6759,0.6266,0.645
+gender_male_stories ,0.3626,0.3385,0.3743,0.3626,0.36
+gender_nonbinary_stories ,0.684,0.684,0.7004,0.7004,0.692
+,,,,,
+UPDATED AGE SCORES,,,,,
+Accuracy Scores (Age),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,60.81,59.46,59.46,60.81,60.135
+age_19to30_stories,64.86,62.16,60.81,64.86,63.173
+age_31to50_stories,62.16,59.46,60.81,62.16,61.148
+age_above50_stories,62.16,62.16,59.46,64.86,62.16
+age_under18_stories,62.16,60.81,58.11,63.51,61.148
+,,,,,
+Macro F1-Scores (Age),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,0.3971,0.3892,0.3892,0.4,0.394
+age_19to30_stories,0.6314,0.6031,0.3934,0.6314,0.565
+age_31to50_stories,0.6031,0.386,0.5863,0.5978,0.543
+age_above50_stories,0.6031,0.6031,0.5747,0.6266,0.602
+age_under18_stories,0.5978,0.5804,0.5515,0.6094,0.585
+,,,,,
+UPDATED RACE SCORES,,,,,
+Accuracy Scores (Race),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,60.81,59.46,59.46,60.81,60.135
+race_asian_stories,59.46,60.81,59.46,59.46,59.798
+race_black_stories,62.16,64.86,64.86,62.16,63.51
+race_latino_stories,59.46,60.81,59.46,62.16,60.473
+race_white_stories,58.11,56.76,59.46,56.76,57.773
+,,,,,
+Macro F1-Scores (Race),,,,,
+Dataset,Trial 1,Trial 2,Trial 3,Trial 4,Average
+control_stories,0.5957,0.5838,0.5838,0.6,0.591
+race_asian_stories,0.5626,0.5738,0.5626,0.5626,0.565
+race_black_stories,0.5849,0.621,0.6146,0.5849,0.601
+race_latino_stories,0.5553,0.5738,0.5553,0.5849,0.567
+race_white_stories,0.5515,0.5404,0.5691,0.5335,0.549
